@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      dbs:
+        bsc:
+          database: bsc-test
+          uri: mongodb://mongodbadmin:password@127.0.0.1:27017/?retryWrites=false
+        ethereum:
+          database: ethereum-test
+          uri: mongodb://mongodbadmin:password@127.0.0.1:27017/?retryWrites=false
